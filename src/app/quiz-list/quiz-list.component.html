@@ -1,0 +1,8 @@
+<mat-card class="example-card">
+  <mat-card-content>
+    <h1>Quiz List</h1>
+    <mat-list *ngFor="let quiz of quizList">
+      <mat-list-item class="clickLink" (click)="api.selectQuiz(quiz)">{{ quiz.title }}</mat-list-item>
+    </mat-list>
+  </mat-card-content>
+</mat-card> 

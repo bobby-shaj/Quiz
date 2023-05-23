@@ -1,0 +1,9 @@
+.clickLink {
+  cursor: pointer;
+  z-index: 6;
+}
+
+.top {
+  background: red;
+  z-index: auto;
+}

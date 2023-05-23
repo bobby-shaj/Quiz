@@ -1,0 +1,7 @@
+.example-button-row button{
+  margin-right: 8px;
+}
+
+.example-button-row span{
+  flex: 1 1 auto;
+}
